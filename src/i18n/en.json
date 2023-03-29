@@ -1,0 +1,37 @@
+{
+  "linksName":{
+    "about":"About Me",
+    "works":"My works",
+    "contacts":"Contacts"
+  },
+  "resume":"Resume",
+  "myNameIs":{
+    "greeting":"Hi, my name is",
+    "name":"Taras Malchenko.",
+    "buildThings":"I build things for the web.",
+    "greetingText":"I’m a junior front end developr specializing in building web-sites. Currently, I’m focused on building accessible, human-centered sites in freelance but want to be a part of something bigger."
+  },
+  "TitleAboutMe":"About me",
+  "textAboutMe":{
+    "first":"Hello, my name is Taras Malchenko and I enjoy creating things that live on the internet. My story in programming began two years ago. I haven`t never thought to bind my life with programming. I was keen on sport and had bachelor and master degree in Law. One day , my friend bought a new Iphone and I wondered how a boy who was younger than me could do this. I started googling about web development (thoughts it was something unreal to me) But when we met with my friend he said:'Man, why don't you try?'. And it was a starting point of my programming career",
+    "second":"After eleven months  of  studying , my friend invited me to join a small company called Hof.Create. We made several orders  before the war started. After the begging of  war we had problems with orders , money earnings and electricity of course. After this my colleagues go to find better opportunities. I decided to take time for studying and now I am wanting to be a part of new team.", 
+    "third":"Fast-forward to today, I ended huge amount courses in HTML/CSS/JS and Vue.JS. In general, I am sociable, friendly, funny and talkative person who want to increase my knowledge every day. Also, the feeling of solved hard task makes me feel good.In my opinion it it only two ways degradation or progress if you stay on the place - you are degradating",
+    "fourth":"Here are a few technologies I’ve been working with recently:"
+  },
+  "TitleMyWorks":"My Works",
+  "MyWorksSDescription":{
+    "WineShopSite":"I decided that in my portfolio must be shopping site. I was searching Figma, Dribble to find nice design and it took a long time. But finally, I found wine-shop and decided to do it.It is a similar site with shopping sites in the net. I use Vue.js and TailwindCss and for sending your order Firebase. All api calls were made with the help of JSONPlaceholder.",
+    "VueMovie":"As I am a fan of cinema industries, I want to do some kind of project that can help find movie, series etc. to watch. All site was made with help of Vue.JS and TailwindCss. Also, with Firebase I made authentication. Forum is a place where you can discuss a film(available only for authenticated users).",
+    "VueApp":"It was my first project on Vue. So, I decided to do the most popular tutorials such as calculator, weather-app, todo-list, authentication. It was really hard to do it for first time but I hope you will like it",
+    "UkraineFoLife":"It was the hardest project I have ever worked in. I did visual of the site and some logic for it. There a lot useful things such as translation, popups, gallery and so on.",
+    "YogaMasters":"My team leader gave me the task to make responsive site without js. So, i did it. It was fine to do because I am relly keen on making some custom work.",
+    "BrainSource":"It was interstinf to do a lot of work in short term of time. The site wasn`t hard in coding but the thought that I couldnt`t do this before deadline made me feel uncomfortable.The result was great, I coped with this task."
+  },
+  "TitleContacts":"Contacts",
+  "Contacts":{
+    "first":"Get In Touch",
+    "second":"I'm currently looking for any new opportunities. You can contact with me via Telegram or my phone number. If you need a good worker just call or write me. I'm waiting for your response.",
+    "third":"Say hello"
+  }
+}
+

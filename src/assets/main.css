@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*:before,
+*:after {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather';
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration:none;
+}
+
+
+li{
+ list-style:none;
+}
+
+.menu__item li,
+.menu__item a::before {
+  bottom: -50%;
+}
+
+.menu__item li,
+.menu__item a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
