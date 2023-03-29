@@ -77,7 +77,7 @@
           @click="switchLang()"
         >
         <a
-          href="https://resume.io/r/PNzD8BTlY"
+          :href="cv"
           target="_blank"
           class="border border-green py-1 px-3 rounded-md hover:bg-green/10 transition-all duration-300"
         >{{ t("resume") }}</a>
@@ -89,6 +89,7 @@
 <script setup>
 import { ref, onBeforeUnmount } from 'vue';
 import { useI18n } from 'vue-i18n';
+import cv from '../assets/cv/MyPortfolio.pdf';
 
 
 const { t, locale } = useI18n({
