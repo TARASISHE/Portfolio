@@ -52,70 +52,26 @@ const tabs = computed(()=>{
       name: 'Ukraine for life',
       status: 'Was in production, closed due money issues',
       link: 'https://tarasishe.github.io/UkraineForLife/',
-      technologies: 'Html, JS, Sccs',
+      technologies: 'Vue.js, Sccs',
       description: t('MyWorksSDescription.UkraineFoLife')
     },
     { 
       name: 'Yoga Masters',
       status: 'In production',
       link: 'https://yoga-masters.com/',
-      technologies: 'Html, Sccs',
+      technologies: 'Vue.js, Sccs',
       description: t('MyWorksSDescription.YogaMasters')
     },
     { 
       name: 'Brain Source',
       status: 'In production',
       link: 'https://brain-source.com.ua/en/',
-      technologies: 'Html, Sccs',
+      technologies: 'Vue.js, Sccs',
       description: t('MyWorksSDescription.BrainSource')
     }
   ];
 });
 
-// const tabs = [
-//   { 
-//     name: 'Wine Shop Site',
-//     status: 'Githab/No in production',
-//     link: 'https://tarasishe.github.io/WineShopSite/ ',
-//     technologies: 'Vue.js, Firebase, TailwindCss ',
-//     description: t('MyWorksSDescription.WineShopSite')
-//   },
-//   { 
-//     name: 'Vue Movie',
-//     status: 'Githab/No in production;',
-//     link: 'https://tarasishe.github.io/Vue-movie/',
-//     technologies: 'Vue.js, Firebase, TailwindCss ',
-//     description: t('MyWorksSDescription.VueMovie')
-//   },
-//   { 
-//     name: 'Vue App',
-//     status: 'Githab/No in production;',
-//     link: 'https://tarasishe.github.io/VueApp/',
-//     technologies: 'Vue.js, Firebase, TailwindCss ',
-//     description: t('MyWorksSDescription.VueApp')
-//   },
-//   { 
-//     name: 'Ukraine for life',
-//     status: 'Was in production, closed due money issues',
-//     link: 'https://tarasishe.github.io/UkraineForLife/',
-//     technologies: 'Html, JS, Sccs',
-//     description: t('MyWorksSDescription.UkraineFoLife')
-//   },
-//   { 
-//     name: 'Yoga Masters',
-//     status: 'In production',
-//     link: 'https://yoga-masters.com/',
-//     technologies: 'Html, Sccs',
-//     description: t('MyWorksSDescription.YogaMasters')
-//   },
-//   { 
-//     name: 'Brain Source',
-//     status: 'In production',
-//     link: 'https://brain-source.com.ua/en/',
-//     technologies: 'Html, Sccs',
-//     description: t('MyWorksSDescription.BrainSource')
-//   }
-// ];
 const selectedTab = ref('About');
 const changeTab = (tabName) => {
   selectedTab.value = tabName;
