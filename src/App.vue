@@ -12,21 +12,21 @@
         id="about"
         ref="about"
         v-motion-slide-visible-right
-        :delay="0"
-        class="py-[150px] "
+        :delay="700"
+        class="py-[180px] "
       />
       <MyWorks
         id="works"
         ref="works"
         v-motion-slide-visible-right
-        :delay="0"
+        :delay="700"
         class="py-[150px] "
       />
       <Contacts
         id="contacts"
         ref="contacts"
         v-motion-slide-visible-right
-        :delay="0"
+        :delay="700"
         class="mb-[250px] xs:mb-[100px] "
       />
       <Socials />
