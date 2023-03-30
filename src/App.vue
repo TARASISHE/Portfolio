@@ -11,8 +11,6 @@
       <AboutMe
         id="about"
         ref="about"
-        v-motion-slide-visible-right
-        :delay="700"
         class="py-[180px] "
       />
       <MyWorks
