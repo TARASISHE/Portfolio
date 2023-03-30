@@ -89,7 +89,7 @@
 <script setup>
 import { ref, onBeforeUnmount } from 'vue';
 import { useI18n } from 'vue-i18n';
-import cv from '../assets/cv/MyPortfolio.pdf';
+import cv from '../assets/cv/Portfolio.pdf';
 
 
 const { t, locale } = useI18n({
