@@ -9,9 +9,6 @@
           {{ t('textAboutMe.first') }}
         </p>
         <p class="my-4 xs:my-2 xs:text-center xs:text-sm">
-          {{ t('textAboutMe.second') }}
-        </p>
-        <p class="my-4 xs:my-2 xs:text-center xs:text-sm">
           {{ t('textAboutMe.third') }}
         </p>
         <p class="mb-4 xs:my-2 xs:text-center xs:text-sm">

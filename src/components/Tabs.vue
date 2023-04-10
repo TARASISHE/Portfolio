@@ -9,7 +9,7 @@
       <TabItem
         :names="tabs"
         :selected-tab="selectedTab"
-        @changeTab="changeTab"
+        @change-tab="changeTab"
       />
     </div>
   </div>
@@ -29,45 +29,38 @@ const tabs = computed(()=>{
   return [
     { 
       name: 'Wine Shop Site',
-      status: 'Githab/No in production',
+      status: 'Githab',
       link: 'https://tarasishe.github.io/WineShopSite/ ',
       technologies: 'Vue.js, Firebase, TailwindCss ',
       description: t('MyWorksSDescription.WineShopSite')
     },
     { 
       name: 'Vue Movie',
-      status: 'Githab/No in production;',
+      status: 'Githab',
       link: 'https://tarasishe.github.io/Vue-movie/',
       technologies: 'Vue.js, Firebase, TailwindCss ',
       description: t('MyWorksSDescription.VueMovie')
     },
     { 
       name: 'Vue App',
-      status: 'Githab/No in production;',
+      status: 'Githab',
       link: 'https://tarasishe.github.io/VueApp/',
       technologies: 'Vue.js, Firebase, TailwindCss ',
       description: t('MyWorksSDescription.VueApp')
     },
     { 
       name: 'Ukraine for life',
-      status: 'Was in production, closed due money issues',
+      status: 'Githab',
       link: 'https://tarasishe.github.io/UkraineForLife/',
       technologies: 'Vue.js, Sccs',
       description: t('MyWorksSDescription.UkraineFoLife')
     },
     { 
       name: 'Yoga Masters',
-      status: 'In production',
-      link: 'https://yoga-masters.com/',
+      status: 'Githab',
+      link: 'https://tarasishe.github.io/YogaMaster/',
       technologies: 'Vue.js, Sccs',
       description: t('MyWorksSDescription.YogaMasters')
-    },
-    { 
-      name: 'Brain Source',
-      status: 'In production',
-      link: 'https://brain-source.com.ua/en/',
-      technologies: 'Vue.js, Sccs',
-      description: t('MyWorksSDescription.BrainSource')
     }
   ];
 });
